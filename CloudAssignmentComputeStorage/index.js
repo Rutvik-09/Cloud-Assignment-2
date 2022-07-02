@@ -7,7 +7,7 @@ const app = require("./app");
 
 const server = http.createServer(app);
 
-const providedURL = "http://52.23.207.11:8081/ ";
+// const providedURL = "http://52.23.207.11:8081/ ";
 
 server.listen(port, "0.0.0.0", () => {
   console.log("server is running");

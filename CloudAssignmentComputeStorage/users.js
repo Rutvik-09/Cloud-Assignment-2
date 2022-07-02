@@ -3,7 +3,7 @@ const AWS = require("aws-sdk");
 
 const router = express.Router();
 
-const creds = require("../data/creds");
+const creds = require("../Compute-Storage/creds");
 
 const bucketName = "cloud-compute-storage-assignment";
 const fileName = "sample.txt";

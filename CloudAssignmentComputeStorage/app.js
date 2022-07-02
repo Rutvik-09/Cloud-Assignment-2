@@ -10,10 +10,10 @@ app.use(
 
 app.use(express.json());
 
-const userRoute = require("./api/routes/users");
-const rootRoute = "/api";
+const userRoute = require("./users");
+// const rootRoute = "/api";
 
-app.use(rootRoute, userRoute);
+app.use(userRoute);
 
 app.use("/", (req, res) => {
   res.send("It works!!");
