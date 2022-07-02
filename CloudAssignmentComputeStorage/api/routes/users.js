@@ -117,9 +117,9 @@ router.post("/deletefile", (req, res) => {
 
   s3.deleteObject(params, function (err, data) {
     if (err) {
-      console.log("Error while deleting the file from S3 bucket");
+      console.log("File not Found");
       return res.status(500).json({
-        message: "Internal server Error",
+        message: "Internal Server Error",
         success: false,
       });
     } else {
