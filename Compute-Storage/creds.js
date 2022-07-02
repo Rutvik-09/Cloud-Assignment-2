@@ -1,0 +1,6 @@
+module.exports = {
+  awsAccessKeyId: "ASIA3CWS2GGUF6WZSX4O",
+  awsSecretAccessKey: "PqpMuGcDkWvpppZHj/t4IqerYEgn9MhcUMSvvBp/",
+  awsSessionToken:
+    "FwoGZXIvYXdzEFEaDB1kf7xGiyMt2000MiLAAbb/pJUVxdVMl8YNsvVF3Cw7GcmsSY+EQHrOtBmGC+1hP+yBBl01+BuF9okij9xjDAmHGY2IHYUC5WQrwHWO0GhsjwfGCYhPUfGG8XFHkgCG+KwaSSCoylSBmqfp1RmXi1mtT15ZASZb2Q+fO+Zg3/AGYDTEwibrE3TVYEJ5FqPdLxms4UlXYwYi6oiLj4S1TqJuw0VmDi0Ung5AoAmXtlZKvYdh5a0PWIbq33YGVy+3ZFVx3yAdTQiSxj/hvuZ0wijCnoOWBjItNYfSokVoevMnyBsAYlnMyVl/4xUCLUuxNdNNSUW2jX2WGOc/5JvVCnjNUIfK",
+};
